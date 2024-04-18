@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    min-width: 100vh;
+}
+
+section {
+    min-width: 100vh;
+    padding: 7rem 7% 2rem;
+}
+
+/*                        */                  
+/*        HEADER          */                  
+/*                        */
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 7%;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    border-radius: 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--font-color);
+    cursor: pointer;
+    padding: 0;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links a {
+    font-weight: 700;
+    color: black;
+    align-content: center;
+    border-radius: 0;
+    margin: 0 20px;
+    padding: 10px 0 5px 0;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #F8121A;
+}
+
+.search-bar {
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+/*                        */                  
+/*        INICIO          */                  
+/*                        */
+
+.banner img {
+    width: 98vw;
+}
+
+.catalogo {
+    text-align: center;
+}
+
+.product img {
+    display: inline-flex;
+    width: 30%;
+    padding: 10px;
+}
+
+/*                        */                  
+/*        CADASTRO        */                  
+/*                        */
+
+.formContainer {
+    text-align: center;
+}
+
+form {
+    margin-right: 100px;
+}
+
+.forms {
+    display: flex;
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.formContainer input {
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+    margin: 5px;
+}
+
+.submit {
+    background-color: #F8121A ;
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 2px;
+}
+
+.submit:hover {
+    transform: scale(0.9);
+}
+
+/*                        */                  
+/*         SOBRE          */                  
+/*                        */
+
+.aboutTitle {
+    font-size: 3rem;
+}
+
+.aboutText {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.imagesTitle {
+    font-size: 2rem;
+}
+
+
+.aboutImages {
+    display: flex;
+}
+
+.aboutImages img {
+    padding: 10px;
+}
+
+.aboutVideo {
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+
+
